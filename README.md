@@ -4,7 +4,7 @@
 
 AS A student
 
-I want to build a fully functional portfolio website
+I WANT to build a fully functional portfolio website
 
 SO THAT my website can present the work Ive developed for future employers
 
