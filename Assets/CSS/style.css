@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: black;
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px;
+    text-decoration: none;
+}
+
+header h1 {
+    color: black;
+    font-family: lato;
+    font-size: 70px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.BackgroundSquares {
+    background-image: url("../Images/BackgroundSquares.png");
+    height: 100px;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aboutmesection {
+    display: flex;
+    flex-direction: row;
+}
+
+section h2 {
+    color: black;
+    font-family: lato;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 10%;
+    padding-top: -6%;
+    text-decoration: none;
+}
+
+section h3 {
+    color: black;
+    font-family: lato;
+    font-size: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+section .profilepic {
+    height: 400px;
+    margin-right: 8%;
+    margin-left: 2%;
+}
+
+.mywork {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section h4 {
+    color: black;
+    font-family: lato;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 8%;
+    padding-top: -6%;
+    text-decoration: none;
+}
+
+section img {
+    height: 2px;
+}
+
+section div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards {
+    width: 30%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    margin: 60px;
+}
+
+.webimages img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-family: lato;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.description {
+    text-align: center;
+    color: black;
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 800;
+}
