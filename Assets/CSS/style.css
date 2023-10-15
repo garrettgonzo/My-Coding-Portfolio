@@ -77,16 +77,19 @@ section img {
     height: 2px;
 }
 
-section div {
-    margin: 0px;
-    padding: 0px;
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
 }
 
 .cards {
-    width: 30%;
-    background-color: rgb(202, 202, 202);
-    border-radius: 5px;
-    margin: 60px;
+    width: 70%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .webimages img {
@@ -108,4 +111,14 @@ section div {
     font-family: lato;
     font-size: 30px;
     font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contactinfo {
+    color: black;
+    font-family: lato;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
 }
