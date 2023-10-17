@@ -81,15 +81,21 @@ section img {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border: 1px solid red;
+    margin-bottom: 40px;
 }
 
 .cards {
     width: 70%;
+    height: 100%;
     background-color: rgb(224, 224, 224);
-    border-radius: 20px;
+    border-radius: 0px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.cards:hover {
+    background-color: #88cfff;
 }
 
 .webimages img {
@@ -113,6 +119,7 @@ section img {
     font-weight: 800;
     margin-bottom: 30px;
     margin-top: 30px;
+    padding: 0 20px 0 20px;
 }
 
 .contactinfo {
@@ -121,4 +128,18 @@ section img {
     font-size: 40px;
     font-weight: 300;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.horiseonHighlight {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #88cfff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
