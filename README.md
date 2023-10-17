@@ -32,7 +32,7 @@ WHEN I the website is pushed out and works with ease
 
 ## Deployed URL 
 
-url
+https://garrettgonzo.github.io/My-Coding-Portfolio/
 
 ## Website Screenshot
 
